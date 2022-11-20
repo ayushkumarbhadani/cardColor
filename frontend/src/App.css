@@ -1,0 +1,174 @@
+.searchBox{
+  border: 1px solid #333;
+  border-radius:50px;
+  margin: auto;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding: .2rem 1rem;
+  gap: .5rem;
+}
+.searchBox label{
+  display: inline-block;
+  
+}
+.searchBox input{
+  background-color: none;
+  border: none;
+  outline: none;
+  height: 35px;
+  min-width: 250px;
+  font-size: 1rem;
+}
+.createCard{
+  background-color: #777;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 1rem;
+  min-width: 300px;
+}
+.menu{
+  background-color: #777;
+  color: #fff;
+  width: 300px;
+  padding: 1rem;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+button{
+  background: none;
+  color: #fff;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menuHeading .crossBtn{
+  position: absolute;
+  left: 1rem;
+}
+.menuHeading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.selectColor{
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.selectColorBox{
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.choseColor{
+  height: 25px;
+  width: 40px;
+  display: flex;
+}
+.title{
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1rem;
+
+}
+.title input{
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 1rem;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.description{
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-bottom: 2rem;
+}
+.description textarea{
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 1rem;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  resize: vertical;
+}
+.wordCount{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 0.8rem;
+}
+.saveAndCancleBtns{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.saveAndCancleBtns button{
+  background-color: #fff;
+  border-radius: 10px;
+  padding: .5rem 1rem;
+  width: 100px;
+  color: #333;
+}
+.saveBtn{
+    background-color: #fff;
+}
+.cardContainer{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+}
+.card{
+  border-radius: 1rem;
+  display: flex;
+  gap: 10px;
+  background-color: rgba(0,0,0,.5);
+  padding: 1rem;
+  justify-content: space-evenly;
+  color: #fff;
+  font-weight: bold;
+}
+.cardDesc{
+  max-width: 50%;
+}
