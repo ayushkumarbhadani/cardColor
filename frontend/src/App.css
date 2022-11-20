@@ -50,6 +50,8 @@
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  position: relative;
+  transition: all .5s ease-in-out;
 }
 button{
   background: none;
@@ -78,6 +80,7 @@ button{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 1rem;
 }
 .selectColorBox{
   margin-top: 1rem;
@@ -160,15 +163,53 @@ button{
 
 }
 .card{
+  margin:auto;
+  max-width:300px;
   border-radius: 1rem;
-  display: flex;
-  gap: 10px;
-  background-color: rgba(0,0,0,.5);
   padding: 1rem;
-  justify-content: space-evenly;
-  color: #fff;
   font-weight: bold;
+  border:1px solid #333;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: height .5s ease-in-out;
+}
+.cardColorBox{
+  width: 100px;
+  height: 100px;
+  border-radius: 1rem;
 }
 .cardDesc{
-  max-width: 50%;
+  width: calc(300px - 2rem - 105px);
+  padding: 0 1rem;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+.cardUpperPart{
+  display: flex;
+}
+.showMoreBtn{
+  color: #333;
+  font-weight: normal;
+  margin: auto;
+  margin-top: 1rem;
+}
+.hiddenDesc{
+  display: none;
+}
+table{
+  margin-top: 2rem;
+  font-weight: normal;
+  font-size: 10px;
+}
+.th{
+  padding-bottom: 1rem;
+}
+.titleBox{
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  padding: 0.5rem 0rem;
+  width: 100%;
+  text-align: center;
+  color: #fff;
 }
